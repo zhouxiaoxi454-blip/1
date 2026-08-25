@@ -21,7 +21,7 @@ jobs:
 
       - name: Install dependencies and build
         run: |
-          npm install
+          npm install --package-lock=false
           npm run build
 
       - name: Deploy to GitHub Pages
