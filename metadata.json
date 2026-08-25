@@ -1,0 +1,8 @@
+{
+  "name": "Remix 备考复习记录",
+  "description": "简洁、轻量、可长期使用的备考复习与知识点主动提取循环记录系统",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
