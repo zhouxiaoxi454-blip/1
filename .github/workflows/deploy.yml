@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
+          # 这里去掉了 cache: 'npm'，就不会再强制找锁文件了
 
       - name: Install dependencies and build
         run: |
